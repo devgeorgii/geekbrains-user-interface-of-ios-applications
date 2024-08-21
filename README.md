@@ -1,5 +1,5 @@
 > [!NOTE]
-> For English [click here](#User-interface-og-iOS-applications), or scroll down.
+> For English [click here](#User-interface-of-iOS-applications), or scroll down.
 
 # Пользовательский интерфейс iOS-приложений
 
