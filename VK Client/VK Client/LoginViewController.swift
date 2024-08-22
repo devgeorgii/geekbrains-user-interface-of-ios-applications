@@ -61,13 +61,39 @@ class LoginViewController: UIViewController {
         NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
     }
-
-    @IBAction func loginButtonPressed(_ sender: UIButton) {
-        guard let login = loginInputField.text, let password = passwordInputField.text, login == "", password == "" else {
-            print("Ошибка")
-            return
+    
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        // Проверяем данные
+        let checkResult = checkUserData()
+        
+        // Если  данные не верны, покажем ошибку
+        if !checkResult {
+            showLoginError()
         }
-        print("Успех")
+        
+        // Вернём результат
+        return checkResult
+    }
+    
+    func checkUserData() -> Bool {
+        guard let login = loginInputField.text, let password = passwordInputField.text else { return false }
+        
+        if login == "" && password == "" {
+            return true
+        } else {
+            return false
+        }
+    }
+    
+    func showLoginError() {
+        // Создаём контроллер
+        let alert = UIAlertController(title: "Ошибка", message: "Неверный логин и пароль", preferredStyle: .alert)
+        // Создаём кнопку для UIAlertController
+        let action = UIAlertAction(title: "ОК", style: .cancel, handler: nil)
+        // Добавляем кнопку на UIAlertController
+        alert.addAction(action)
+        // Показываем UIAlertController
+        present(alert, animated: true, completion: nil)
     }
     
 }
