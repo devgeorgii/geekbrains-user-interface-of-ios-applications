@@ -209,12 +209,36 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="AWL-MC-EH9">
-                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="66" id="AWL-MC-EH9">
+                                <rect key="frame" x="0.0" y="50" width="393" height="66"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AWL-MC-EH9" id="8ug-cS-3Sj">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="66"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Z75-ou-xan">
+                                            <rect key="frame" x="24" y="8" width="48" height="50"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="Z75-ou-xan" secondAttribute="height" multiplier="1:1" id="7z7-ab-MZ9"/>
+                                                <constraint firstAttribute="width" constant="48" id="iE2-aV-7MJ"/>
+                                                <constraint firstAttribute="height" constant="48" id="k7u-NI-YyA"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X3f-Gz-J9m">
+                                            <rect key="frame" x="96" y="22.666666666666671" width="273" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Z75-ou-xan" firstAttribute="top" secondItem="8ug-cS-3Sj" secondAttribute="top" constant="8" id="1ow-Wq-bhG"/>
+                                        <constraint firstItem="Z75-ou-xan" firstAttribute="leading" secondItem="8ug-cS-3Sj" secondAttribute="leading" constant="24" id="8eV-uC-34f"/>
+                                        <constraint firstAttribute="bottom" secondItem="Z75-ou-xan" secondAttribute="bottom" constant="8" id="QG5-Hj-JcK"/>
+                                        <constraint firstAttribute="trailing" secondItem="X3f-Gz-J9m" secondAttribute="trailing" constant="24" id="U9D-ps-9vw"/>
+                                        <constraint firstItem="X3f-Gz-J9m" firstAttribute="centerY" secondItem="Z75-ou-xan" secondAttribute="centerY" id="hhs-6V-Y7i"/>
+                                        <constraint firstItem="X3f-Gz-J9m" firstAttribute="leading" secondItem="Z75-ou-xan" secondAttribute="trailing" constant="24" id="iFE-Bn-Edy"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -227,7 +251,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QaG-2k-ekL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3778" y="373"/>
+            <point key="canvasLocation" x="3777.8625954198474" y="372.53521126760563"/>
         </scene>
         <!--Друзья-->
         <scene sceneID="coU-rr-nyQ">
