@@ -13,6 +13,8 @@
 		447D5A252C7673B200109A98 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 447D5A242C7673B200109A98 /* Base */; };
 		447D5A272C7673B300109A98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 447D5A262C7673B300109A98 /* Assets.xcassets */; };
 		447D5A2A2C7673B300109A98 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 447D5A292C7673B300109A98 /* Base */; };
+		44BB44322C7B5EDD007E33B5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BB44312C7B5EDD007E33B5 /* User.swift */; };
+		44BB44342C7B5EEB007E33B5 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BB44332C7B5EEB007E33B5 /* Group.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		447D5A262C7673B300109A98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		447D5A292C7673B300109A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		447D5A2B2C7673B300109A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44BB44312C7B5EDD007E33B5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		44BB44332C7B5EEB007E33B5 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +64,21 @@
 				447D5A1F2C7673B200109A98 /* SceneDelegate.swift */,
 				447D5A212C7673B200109A98 /* LoginViewController.swift */,
 				447D5A232C7673B200109A98 /* Main.storyboard */,
+				44BB44352C7B5EFB007E33B5 /* Model */,
 				447D5A262C7673B300109A98 /* Assets.xcassets */,
 				447D5A282C7673B300109A98 /* LaunchScreen.storyboard */,
 				447D5A2B2C7673B300109A98 /* Info.plist */,
 			);
 			path = "VK Client";
+			sourceTree = "<group>";
+		};
+		44BB44352C7B5EFB007E33B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44BB44312C7B5EDD007E33B5 /* User.swift */,
+				44BB44332C7B5EEB007E33B5 /* Group.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44BB44322C7B5EDD007E33B5 /* User.swift in Sources */,
 				447D5A222C7673B200109A98 /* LoginViewController.swift in Sources */,
 				447D5A1E2C7673B200109A98 /* AppDelegate.swift in Sources */,
+				44BB44342C7B5EEB007E33B5 /* Group.swift in Sources */,
 				447D5A202C7673B200109A98 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
