@@ -13,6 +13,16 @@
 		447D5A252C7673B200109A98 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 447D5A242C7673B200109A98 /* Base */; };
 		447D5A272C7673B300109A98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 447D5A262C7673B300109A98 /* Assets.xcassets */; };
 		447D5A2A2C7673B300109A98 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 447D5A292C7673B300109A98 /* Base */; };
+		44BB44322C7B5EDD007E33B5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BB44312C7B5EDD007E33B5 /* User.swift */; };
+		44BB44342C7B5EEB007E33B5 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BB44332C7B5EEB007E33B5 /* Group.swift */; };
+		44BB44372C7BE008007E33B5 /* FriendsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BB44362C7BE008007E33B5 /* FriendsListTableViewController.swift */; };
+		44BB44392C7BE048007E33B5 /* FriendsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BB44382C7BE048007E33B5 /* FriendsListTableViewCell.swift */; };
+		44BB443B2C7BE085007E33B5 /* FriendProfileCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BB443A2C7BE085007E33B5 /* FriendProfileCollectionViewController.swift */; };
+		44BB443D2C7BE0A8007E33B5 /* FriendProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BB443C2C7BE0A8007E33B5 /* FriendProfileCollectionViewCell.swift */; };
+		44BB443F2C7BE137007E33B5 /* GroupsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BB443E2C7BE137007E33B5 /* GroupsListTableViewController.swift */; };
+		44BB44412C7BE15C007E33B5 /* GroupsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BB44402C7BE15C007E33B5 /* GroupsListTableViewCell.swift */; };
+		44BB44432C7BE19C007E33B5 /* GroupsSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BB44422C7BE19C007E33B5 /* GroupsSearchTableViewController.swift */; };
+		44BB44452C7BE1CB007E33B5 /* GroupsSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BB44442C7BE1CB007E33B5 /* GroupsSearchTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		447D5A262C7673B300109A98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		447D5A292C7673B300109A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		447D5A2B2C7673B300109A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44BB44312C7B5EDD007E33B5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		44BB44332C7B5EEB007E33B5 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		44BB44362C7BE008007E33B5 /* FriendsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListTableViewController.swift; sourceTree = "<group>"; };
+		44BB44382C7BE048007E33B5 /* FriendsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListTableViewCell.swift; sourceTree = "<group>"; };
+		44BB443A2C7BE085007E33B5 /* FriendProfileCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendProfileCollectionViewController.swift; sourceTree = "<group>"; };
+		44BB443C2C7BE0A8007E33B5 /* FriendProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		44BB443E2C7BE137007E33B5 /* GroupsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsListTableViewController.swift; sourceTree = "<group>"; };
+		44BB44402C7BE15C007E33B5 /* GroupsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsListTableViewCell.swift; sourceTree = "<group>"; };
+		44BB44422C7BE19C007E33B5 /* GroupsSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsSearchTableViewController.swift; sourceTree = "<group>"; };
+		44BB44442C7BE1CB007E33B5 /* GroupsSearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsSearchTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +80,61 @@
 				447D5A1F2C7673B200109A98 /* SceneDelegate.swift */,
 				447D5A212C7673B200109A98 /* LoginViewController.swift */,
 				447D5A232C7673B200109A98 /* Main.storyboard */,
+				44BB44492C7CF379007E33B5 /* GroupsSearchList */,
+				44BB44482C7CF366007E33B5 /* GroupsList */,
+				44BB44472C7CF355007E33B5 /* FriendProfile */,
+				44BB44462C7CF33B007E33B5 /* FriendsList */,
+				44BB44352C7B5EFB007E33B5 /* Model */,
 				447D5A262C7673B300109A98 /* Assets.xcassets */,
 				447D5A282C7673B300109A98 /* LaunchScreen.storyboard */,
 				447D5A2B2C7673B300109A98 /* Info.plist */,
 			);
 			path = "VK Client";
+			sourceTree = "<group>";
+		};
+		44BB44352C7B5EFB007E33B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44BB44312C7B5EDD007E33B5 /* User.swift */,
+				44BB44332C7B5EEB007E33B5 /* Group.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44BB44462C7CF33B007E33B5 /* FriendsList */ = {
+			isa = PBXGroup;
+			children = (
+				44BB44382C7BE048007E33B5 /* FriendsListTableViewCell.swift */,
+				44BB44362C7BE008007E33B5 /* FriendsListTableViewController.swift */,
+			);
+			path = FriendsList;
+			sourceTree = "<group>";
+		};
+		44BB44472C7CF355007E33B5 /* FriendProfile */ = {
+			isa = PBXGroup;
+			children = (
+				44BB443C2C7BE0A8007E33B5 /* FriendProfileCollectionViewCell.swift */,
+				44BB443A2C7BE085007E33B5 /* FriendProfileCollectionViewController.swift */,
+			);
+			path = FriendProfile;
+			sourceTree = "<group>";
+		};
+		44BB44482C7CF366007E33B5 /* GroupsList */ = {
+			isa = PBXGroup;
+			children = (
+				44BB44402C7BE15C007E33B5 /* GroupsListTableViewCell.swift */,
+				44BB443E2C7BE137007E33B5 /* GroupsListTableViewController.swift */,
+			);
+			path = GroupsList;
+			sourceTree = "<group>";
+		};
+		44BB44492C7CF379007E33B5 /* GroupsSearchList */ = {
+			isa = PBXGroup;
+			children = (
+				44BB44442C7BE1CB007E33B5 /* GroupsSearchTableViewCell.swift */,
+				44BB44422C7BE19C007E33B5 /* GroupsSearchTableViewController.swift */,
+			);
+			path = GroupsSearchList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +208,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44BB44322C7B5EDD007E33B5 /* User.swift in Sources */,
+				44BB44452C7BE1CB007E33B5 /* GroupsSearchTableViewCell.swift in Sources */,
+				44BB443F2C7BE137007E33B5 /* GroupsListTableViewController.swift in Sources */,
 				447D5A222C7673B200109A98 /* LoginViewController.swift in Sources */,
+				44BB443B2C7BE085007E33B5 /* FriendProfileCollectionViewController.swift in Sources */,
+				44BB443D2C7BE0A8007E33B5 /* FriendProfileCollectionViewCell.swift in Sources */,
+				44BB44432C7BE19C007E33B5 /* GroupsSearchTableViewController.swift in Sources */,
 				447D5A1E2C7673B200109A98 /* AppDelegate.swift in Sources */,
+				44BB44372C7BE008007E33B5 /* FriendsListTableViewController.swift in Sources */,
+				44BB44342C7B5EEB007E33B5 /* Group.swift in Sources */,
+				44BB44412C7BE15C007E33B5 /* GroupsListTableViewCell.swift in Sources */,
+				44BB44392C7BE048007E33B5 /* FriendsListTableViewCell.swift in Sources */,
 				447D5A202C7673B200109A98 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
